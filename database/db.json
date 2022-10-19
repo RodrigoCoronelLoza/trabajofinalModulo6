@@ -3,30 +3,31 @@
     {
       "id": 1,
       "nombre": "Legal",
-      "nombre encargado": "Rodrigo Loza",
-      "numero de funcionarios": 4
+      "nombreEncargado": "Rodrigo Loza",
+      "numeroDeFuncionarios": 4
     },
     {
       "id": 2,
       "nombre": "Informatica",
-      "nombre encargado": "Loic Dubois",
-      "numero de funcionarios": 4
+      "nombreEncargado": "Loic Dubois",
+      "numeroDeFuncionarios": 4
     },
     {
       "id": 3,
       "nombre": "Finanzas",
-      "nombre encargado": "Leidy T",
-      "numero de funcionarios": 12
+      "nombreEncargado": "Leidy T",
+      "numeroDeFuncionarios": 12
     },
     {
       "id": 4,
       "nombre": "Recursos Humanos",
-      "nombre encargado": "Didier Drogba",
-      "numero de funcionarios": 5
+      "nombreEncargado": "Didier Drogba",
+      "numeroDeFuncionarios": 5
     }
   ],
   "activo": [
     {
+      "id": 1,
       "tipo": "computadora",
       "marca": "lenovo",
       "modelo": "ts140",
@@ -34,6 +35,7 @@
       "areaId": 1
     },
     {
+      "id": 2,
       "tipo": "router",
       "marca": "tplink",
       "modelo": "tp5000",
@@ -41,6 +43,7 @@
       "areaId": 2
     },
     {
+      "id": 3,
       "tipo": "proyectora",
       "marca": "samsung",
       "modelo": "pr451",
@@ -48,6 +51,7 @@
       "areaId": 3
     },
     {
+      "id": 4,
       "tipo": "escritorio",
       "marca": "ikea",
       "modelo": "ik201",
