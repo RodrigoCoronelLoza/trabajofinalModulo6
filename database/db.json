@@ -1,0 +1,58 @@
+{
+  "area": [
+    {
+      "id": 1,
+      "nombre": "Legal",
+      "nombre encargado": "Rodrigo Loza",
+      "numero de funcionarios": 4
+    },
+    {
+      "id": 2,
+      "nombre": "Informatica",
+      "nombre encargado": "Loic Dubois",
+      "numero de funcionarios": 4
+    },
+    {
+      "id": 3,
+      "nombre": "Finanzas",
+      "nombre encargado": "Leidy T",
+      "numero de funcionarios": 12
+    },
+    {
+      "id": 4,
+      "nombre": "Recursos Humanos",
+      "nombre encargado": "Didier Drogba",
+      "numero de funcionarios": 5
+    }
+  ],
+  "activo": [
+    {
+      "tipo": "computadora",
+      "marca": "lenovo",
+      "modelo": "ts140",
+      "estado": "nuevo",
+      "areaId": 1
+    },
+    {
+      "tipo": "router",
+      "marca": "tplink",
+      "modelo": "tp5000",
+      "estado": "nuevo",
+      "areaId": 2
+    },
+    {
+      "tipo": "proyectora",
+      "marca": "samsung",
+      "modelo": "pr451",
+      "estado": "usado",
+      "areaId": 3
+    },
+    {
+      "tipo": "escritorio",
+      "marca": "ikea",
+      "modelo": "ik201",
+      "estado": "desuso",
+      "areaId": 4
+    }
+  ]
+}
