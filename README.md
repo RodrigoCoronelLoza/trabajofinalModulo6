@@ -1,13 +1,13 @@
 # proyectofinal
 
-<br PROYECTO FINAL F&F/>
-<br RESPONSABLE : RODRIGO CORONEL LOZA CI:6758400 LP/>
-<br CRUD, FILTRADO Y BUSQUEDA LISTOS PARA AREAS Y ACTIVOS/>
+PROYECTO FINAL F&F\
+RESPONSABLE : RODRIGO CORONEL LOZA CI:6758400 LP\
+CRUD, FILTRADO Y BUSQUEDA LISTOS PARA AREAS Y ACTIVOS\
 
 ## database
 
-<br cd .\database/>
-<br json-server db.json -p 5555/>
+cd .\database\
+json-server db.json -p 5555\
 
 ## Project setup
 
