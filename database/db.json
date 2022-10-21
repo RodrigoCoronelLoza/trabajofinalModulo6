@@ -22,7 +22,19 @@
       "id": 4,
       "nombre": "Recursos Humanos",
       "nombreEncargado": "Didier Drogba",
-      "numeroDeFuncionarios": 5
+      "numeroDeFuncionarios": 25
+    },
+    {
+      "nombre": "RD",
+      "nombreEncargado": "Juan Carras",
+      "numeroDeFuncionarios": 22,
+      "id": 5
+    },
+    {
+      "nombre": "Marketing",
+      "nombreEncargado": "Susana Alipaz",
+      "numeroDeFuncionarios": 20,
+      "id": 6
     }
   ],
   "activo": [
@@ -40,7 +52,7 @@
       "marca": "tplink",
       "modelo": "tp5000",
       "estado": "nuevo",
-      "areaId": "3"
+      "areaId": 3
     },
     {
       "id": 3,
@@ -59,17 +71,9 @@
       "areaId": 4
     },
     {
-      "tipo": "sillon",
-      "marca": "ikea",
-      "modelo": "ikea-23",
-      "estado": "usado",
-      "areaId": 4,
-      "id": 9
-    },
-    {
       "tipo": "calculadora",
       "marca": "hp",
-      "modelo": "hp-450",
+      "modelo": "hp-4500",
       "estado": "nuevo",
       "areaId": 4,
       "id": 10
@@ -81,6 +85,38 @@
       "estado": "usado",
       "areaId": 2,
       "id": 11
+    },
+    {
+      "tipo": "armario",
+      "marca": "ikea",
+      "modelo": "ikea-2021",
+      "estado": "nuevo",
+      "areaId": 3,
+      "id": 12
+    },
+    {
+      "tipo": "mesa",
+      "marca": "ikea",
+      "modelo": "ikea-34",
+      "estado": "desuso",
+      "areaId": 5,
+      "id": 13
+    },
+    {
+      "tipo": "librero",
+      "marca": "ikea",
+      "modelo": "ikea-55",
+      "estado": "nuevo",
+      "areaId": 2,
+      "id": 14
+    },
+    {
+      "tipo": "cpu",
+      "marca": "hp",
+      "modelo": "hp-5000",
+      "estado": "usado",
+      "areaId": 6,
+      "id": 15
     }
   ]
 }

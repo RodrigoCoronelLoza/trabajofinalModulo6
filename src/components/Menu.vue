@@ -32,23 +32,15 @@
 </template>
 
 <script>
-// import AppAlert from "@/components/AppAlert.vue";
 export default {
   name: "Menu",
   data() {
-    return {
-      //   mode: null,
-    };
+    return {};
   },
-  //   props: ["titulo"],
   methods: {},
   computed: {},
-  mounted() {
-    // this.mode = process.env.VUE_APP_MODE;
-  },
-  components: {
-    // AppAlert,
-  },
+  mounted() {},
+  components: {},
 };
 </script>
 

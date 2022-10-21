@@ -41,13 +41,9 @@
             @change="onChangeArea($event)"
             class="form-control"
           >
-            <!-- <div v-for="a in areas" :key="a.id"> -->
             <option v-for="a in areas" :value="a.id">
               {{ a.nombre }}
             </option>
-            <!-- <option value="usado">usado</option>
-            <option value="desuso">desuso</option> -->
-            <!-- </div> -->
           </select>
         </div>
 
@@ -76,13 +72,9 @@
     <div>
       <label>FILTRAR ACTIVO POR AREA</label>
       <select name="Area" @change="onChangeArea2($event)" class="form-control">
-        <!-- <div v-for="a in areas" :key="a.id"> -->
         <option v-for="a in areas" :value="a.id">
           {{ a.nombre }}
         </option>
-        <!-- <option value="usado">usado</option>
-            <option value="desuso">desuso</option> -->
-        <!-- </div> -->
       </select>
       <button class="btn btn-primary m-2" @click="filtroFlag('true')">
         Filtrar
@@ -103,11 +95,6 @@
             aria-expanded="false"
             :aria-controls="`collapseTwo${index}`"
           >
-            <!-- <input
-              type="checkbox"
-              :checked="value.terminado"
-              @click="setearCheckbox(value.terminado, value.id)"
-            /> -->
             {{ value.tipo }}
           </button>
         </h2>
@@ -169,7 +156,6 @@ export default {
       axios({
         method: "post",
         url: "http://localhost:5555/activo/",
-        // url: "http://localhost:4444/tareas",
         data: this.activo,
       })
         .then((response) => {
@@ -220,7 +206,6 @@ export default {
 
     onChangeArea2: function (event) {
       this.areaFiltrar = parseInt(event.target.value);
-      // console.log(event.target.value);
     },
     eliminarActivo(id) {
       console.log(id);
@@ -235,25 +220,16 @@ export default {
         .catch((e) => console.log(e));
     },
     editarActivo(activo_id) {
-      // console.log(id);
       this.$router.push({ name: "editarActivo", params: { id: activo_id } });
-      // console.log(id);
     },
     getterId(id) {
-      // console.log(this.areas.length);
-
-      // console.log(id);
       for (let i = 0; i < this.areas.length; i++) {
-        // console.log("HUEVA");
-        // console.log(this.areas[i].id);
         if (this.areas[i].id === id) {
           return this.areas[i].nombre;
         }
       }
-      return "surface";
     },
     cancelar() {
-      //   console.log("CANCELAR");
       this.$router.push({ name: "activos" });
     },
     filtroFlag(orden) {
@@ -267,15 +243,8 @@ export default {
   computed: {
     lista() {
       if (this.filtrarFlag) {
-        // console.log("FILTRADO LISTO");
-        // console.log(this.areaFiltrar);
         return this.activos.filter((item) => item.areaId === this.areaFiltrar);
       }
-      //   if (this.$store.state.soloTerminado) {
-      //     return this.tareas.filter((item) => {
-      //       return item.terminado;
-      //     });
-      //   }
       return this.activos;
     },
   },

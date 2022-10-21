@@ -18,7 +18,7 @@
           aria-describedby="button-addon2"
         />
         <input
-          type="text"
+          type="number"
           class="form-control"
           v-model="area.numeroDeFuncionarios"
           placeholder="Numero de Funcionarios"
@@ -71,11 +71,6 @@
             aria-expanded="false"
             :aria-controls="`collapseTwo${index}`"
           >
-            <!-- <input
-              type="checkbox"
-              :checked="value.terminado"
-              @click="setearCheckbox(value.terminado, value.id)"
-            /> -->
             {{ value.nombre }}
           </button>
         </h2>
@@ -126,7 +121,6 @@ export default {
       axios({
         method: "post",
         url: "http://localhost:5555/area/",
-        // url: "http://localhost:4444/tareas",
         data: this.area,
       })
         .then((response) => {
@@ -163,10 +157,8 @@ export default {
     },
     editarArea(area_id) {
       this.$router.push({ name: "editarArea", params: { id: area_id } });
-      // console.log(id);
     },
     cancelar() {
-      //   console.log("CANCELAR");
       this.$router.push({ name: "areas" });
     },
   },
@@ -174,13 +166,7 @@ export default {
     lista() {
       if (this.$store.state.areaGrande) {
         return this.areas.filter((item) => item.numeroDeFuncionarios > 10);
-      }
-      //   if (this.$store.state.soloTerminado) {
-      //     return this.tareas.filter((item) => {
-      //       return item.terminado;
-      //     });
-      //   }
-      else {
+      } else {
         return this.areas;
       }
     },
