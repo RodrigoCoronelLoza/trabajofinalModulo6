@@ -1,11 +1,22 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <Menu></Menu>
+  <router-view />
 </template>
-
+<script>
+import Menu from "@/components/Menu.vue";
+export default {
+  name: "app",
+  data() {
+    return {};
+  },
+  methods: {},
+  computed: {},
+  mounted() {},
+  components: {
+    Menu,
+  },
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -21,10 +32,10 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: black;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: blue;
 }
 </style>

@@ -1,0 +1,122 @@
+{
+  "area": [
+    {
+      "id": 1,
+      "nombre": "Legal",
+      "nombreEncargado": "Rodrigue Loza",
+      "numeroDeFuncionarios": 4
+    },
+    {
+      "id": 2,
+      "nombre": "Informatica",
+      "nombreEncargado": "Loic Dubois",
+      "numeroDeFuncionarios": 4
+    },
+    {
+      "id": 3,
+      "nombre": "Finanzas",
+      "nombreEncargado": "Leidy T",
+      "numeroDeFuncionarios": 12
+    },
+    {
+      "id": 4,
+      "nombre": "Recursos Humanos",
+      "nombreEncargado": "Didier Drogba",
+      "numeroDeFuncionarios": 25
+    },
+    {
+      "nombre": "RD",
+      "nombreEncargado": "Juan Carras",
+      "numeroDeFuncionarios": 22,
+      "id": 5
+    },
+    {
+      "nombre": "Marketing",
+      "nombreEncargado": "Susana Alipaz",
+      "numeroDeFuncionarios": 20,
+      "id": 6
+    }
+  ],
+  "activo": [
+    {
+      "id": 1,
+      "tipo": "computadora",
+      "marca": "lenovo",
+      "modelo": "ts140",
+      "estado": "desuso",
+      "areaId": 1
+    },
+    {
+      "id": 2,
+      "tipo": "router",
+      "marca": "tplink",
+      "modelo": "tp5000",
+      "estado": "nuevo",
+      "areaId": 3
+    },
+    {
+      "id": 3,
+      "tipo": "proyectora",
+      "marca": "samsung",
+      "modelo": "pr451",
+      "estado": "usado",
+      "areaId": 3
+    },
+    {
+      "id": 4,
+      "tipo": "escritorio",
+      "marca": "ikea",
+      "modelo": "ik201",
+      "estado": "desuso",
+      "areaId": 4
+    },
+    {
+      "tipo": "calculadora",
+      "marca": "hp",
+      "modelo": "hp-4500",
+      "estado": "nuevo",
+      "areaId": 4,
+      "id": 10
+    },
+    {
+      "tipo": "Teclado",
+      "marca": "delux",
+      "modelo": "del-966",
+      "estado": "usado",
+      "areaId": 2,
+      "id": 11
+    },
+    {
+      "tipo": "armario",
+      "marca": "ikea",
+      "modelo": "ikea-2021",
+      "estado": "nuevo",
+      "areaId": 3,
+      "id": 12
+    },
+    {
+      "tipo": "mesa",
+      "marca": "ikea",
+      "modelo": "ikea-34",
+      "estado": "desuso",
+      "areaId": 5,
+      "id": 13
+    },
+    {
+      "tipo": "librero",
+      "marca": "ikea",
+      "modelo": "ikea-55",
+      "estado": "nuevo",
+      "areaId": 2,
+      "id": 14
+    },
+    {
+      "tipo": "cpu",
+      "marca": "hp",
+      "modelo": "hp-5000",
+      "estado": "usado",
+      "areaId": 6,
+      "id": 15
+    }
+  ]
+}
