@@ -3,7 +3,7 @@
     {
       "id": 1,
       "nombre": "Legal",
-      "nombreEncargado": "Rodrigo Loza",
+      "nombreEncargado": "Rodrigue Loza",
       "numeroDeFuncionarios": 4
     },
     {
@@ -31,7 +31,7 @@
       "tipo": "computadora",
       "marca": "lenovo",
       "modelo": "ts140",
-      "estado": "nuevo",
+      "estado": "desuso",
       "areaId": 1
     },
     {
@@ -40,7 +40,7 @@
       "marca": "tplink",
       "modelo": "tp5000",
       "estado": "nuevo",
-      "areaId": 2
+      "areaId": "3"
     },
     {
       "id": 3,
@@ -57,6 +57,30 @@
       "modelo": "ik201",
       "estado": "desuso",
       "areaId": 4
+    },
+    {
+      "tipo": "sillon",
+      "marca": "ikea",
+      "modelo": "ikea-23",
+      "estado": "usado",
+      "areaId": 4,
+      "id": 9
+    },
+    {
+      "tipo": "calculadora",
+      "marca": "hp",
+      "modelo": "hp-450",
+      "estado": "nuevo",
+      "areaId": 4,
+      "id": 10
+    },
+    {
+      "tipo": "Teclado",
+      "marca": "delux",
+      "modelo": "del-966",
+      "estado": "usado",
+      "areaId": 2,
+      "id": 11
     }
   ]
 }

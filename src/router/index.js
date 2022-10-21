@@ -28,6 +28,22 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "activos" */ "../views/ActivoView.vue"),
   },
+  {
+    path: "/areas/:id/editar",
+    name: "editarArea",
+    component: () =>
+      import(
+        /* webpackChunkName: "EditarArea" */ "../views/EditarAreaView.vue"
+      ),
+  },
+  {
+    path: "/activos/:id/editar",
+    name: "editarActivo",
+    component: () =>
+      import(
+        /* webpackChunkName: "EditarActivo" */ "../views/EditarActivoView.vue"
+      ),
+  },
 ];
 
 const router = createRouter({
